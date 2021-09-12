@@ -1,6 +1,9 @@
+import React from "react";
+import "./resources/theme/theme.scss";
+
 function App() {
   return (
-    <div className="App">
+    <div className="App Home">
       <header className="App-header">
         <p>
           <em>This will be the KV App</em>
