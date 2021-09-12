@@ -1,0 +1,31 @@
+{
+  "name": "kv-project",
+  "version": "0.1.0",
+  "description": "E-commerce site for a graphic design studio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alchemist6174/kreativision.git"
+  },
+  "author": "Amittras Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemist6174/kreativision/issues"
+  },
+  "homepage": "https://github.com/alchemist6174/kreativision#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
