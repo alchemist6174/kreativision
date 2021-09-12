@@ -1,6 +1,10 @@
-@import "../fonts/font";
+@import "../fonts/fonts";
 
 * {
   margin: 0;
   padding: 0;
+}
+
+em {
+  font-family: font("medium");
 }

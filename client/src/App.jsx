@@ -3,7 +3,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          <em>Some text.</em>
+          <em>This will be the KV App</em>
         </p>
         <a
           className="App-link"

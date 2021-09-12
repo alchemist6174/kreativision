@@ -17,3 +17,14 @@
   font-family: "m-bold";
   src: url("./Montserrat-Bold.ttf");
 }
+
+$theme-fonts: (
+  "light": "m-light",
+  "regular": "m-regular",
+  "medium": "m-medium",
+  "bold": "m-bold",
+);
+
+@function font($face) {
+  @return map-get($theme-fonts, $face);
+}
